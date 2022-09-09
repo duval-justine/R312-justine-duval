@@ -16,6 +16,11 @@
           lien vers Page simple
         </router-link>
       </li>
+      <li>
+        <router-link class="text-red-600 underline" to="/liste">
+          lien vers la page Liste
+        </router-link>
+      </li>
     </ul>
   </nav>
 
