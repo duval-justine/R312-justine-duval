@@ -23,7 +23,9 @@
       </li>
     </ul>
   </nav>
-
+  <Suspense>
+    <router-view class="m-2 border-5" />
+  </Suspense>
   <!-- Affiche les pages -->
   <router-view class="m-2 border-2 p-2" />
 </template>
