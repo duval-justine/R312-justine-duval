@@ -1,6 +1,6 @@
 <script>
 import bath from "./icones/Bath.vue";
-import heart from "./icones/heart.vue";
+import heart from "./icones/Heart.vue";
 
 export default {
   /* Les "props" servent à définir les "attributs" qui seront passés a l'instance du composant pour le personnalisé.
