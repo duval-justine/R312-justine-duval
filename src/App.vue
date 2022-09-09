@@ -21,6 +21,11 @@
           lien vers la page Liste
         </router-link>
       </li>
+      <li>
+        <router-link class="text-red-600 underline" to="/liste-fetch">
+          lien vers la page Liste Fetch
+        </router-link>
+      </li>
     </ul>
   </nav>
   <Suspense>
