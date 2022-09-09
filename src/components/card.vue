@@ -1,19 +1,15 @@
-<script>
+<script setup lang="ts">
 import bath from "./icones/Bath.vue";
 import heart from "./icones/Heart.vue";
 
-export default {
-  /* Les "props" servent à définir les "attributs" qui seront passés a l'instance du composant pour le personnalisé.
-  Chaque "props" a un nom et un type */
-  props: {
+defineProps ({
     nom: String,
     prix: Number,
     favori: Boolean,
     image: String, // les images sont simplement l'URL absolue (depuis la racine, débute par '/' )
     nbrSDB: Number,
-  },
-  components: { bath, heart },
-};
+  }
+  );
 </script>
 
 <template>
