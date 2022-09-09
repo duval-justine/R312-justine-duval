@@ -6,7 +6,7 @@
          favoris:true,
           lieu:"2699 Green Valley, Highland Lake ", 
           nbrSDB:2, 
-          image:"/images-maison/maison1.jpg"
+          image:"/images-maison/maison2.jpg"
           };
     const dataMaison1 = {
         titre:"Faulkner Ave",
