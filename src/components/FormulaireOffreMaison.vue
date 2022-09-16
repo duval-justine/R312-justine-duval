@@ -7,7 +7,7 @@ const dataMaison = ref({});
 <template>
     <div>
         <div class="p-2">
-            <h2 class="text-2xl">Résultat (Prévisualisation)</h2>
+            <h2 class="text-2xl mb-4">Prévisualisation :</h2>
             <AfficheMaison v-bind="dataMaison" />
         </div>
         <div class="p-2">
