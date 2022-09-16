@@ -12,11 +12,11 @@ const dataMaison = ref({});
         </div>
         <div class="p-2">
             <FormKit type="form" v-model="dataMaison">
-                <FormKit name="titre" label="nom" />
-                <FormKit name="price" label="prix" type="number" />
-                <FormKit name="favoris" label="mettre en valeur" type="checkbox" />
-                <FormKit name="lieu" label="name" />
-                <FormKit name="nombre de salle de bain" label="number" type="number" />
+                <FormKit name="titre" label="Nom de la maison" />
+                <FormKit name="price" label="Prix de la maison" type="number" />
+                <FormKit name="favoris" label="Favoris" type="checkbox" />
+                <FormKit name="lieu" label="Adresse de la maison" />
+                <FormKit name="nombre de salle de bain" label="Nombre de salle de bain" type="number" />
             </FormKit>
         </div>
     </div>
