@@ -28,7 +28,7 @@ const dataMaison2 = {
 
 <template>
     <div class="p-2">
-        <h2>Page Simple</h2>
+        <h2 class="text-3xl font-bold text-indigo-1000 text-center pt-[3.625rem] mb-8">Page Simple </h2>
         <div class="grid grid-flow-row-dense grid-cols-[repeat(auto-fit,minmax(343px,1fr))]">
             <AfficheMaison class="p-4" v-bind="dataMaison0" />
             <AfficheMaison class="p-4" v-bind="dataMaison1" />

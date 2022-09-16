@@ -11,7 +11,7 @@ const dataMaisons = [{ titre: "Beverly Springfield", price: 1723, favoris: true,
 
 <template>
     <div class="p-2">
-        <h2>Page Liste</h2>
+        <h2 class="text-3xl font-bold text-indigo-1000 text-center pt-[3.625rem] mb-8">Liste </h2>
         <div class="grid grid-flow-row-dense grid-cols-[repeat(auto-fit,minmax(343px,1fr))]">
             <div class="p-4" v-for="dataMaison in dataMaisons" :key="dataMaison.titre">
                 <AfficheMaison v-bind="dataMaison" />
