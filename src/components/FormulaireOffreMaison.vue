@@ -16,7 +16,7 @@ const dataMaison = ref({});
                 <FormKit name="price" label="Prix de la maison" type="number" />
                 <FormKit name="favoris" label="Favoris" type="checkbox" />
                 <FormKit name="lieu" label="Adresse de la maison" />
-                <FormKit name="nombre de salle de bain" label="Nombre de salle de bain" type="number" />
+                <FormKit name="nbrSDB" label="Nombre de salle de bain" type="number" />
             </FormKit>
         </div>
     </div>
