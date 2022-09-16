@@ -1,38 +1,33 @@
 <template>
-  <nav>
-    <h4 class="text-xl">
-      <Bars3Icon class="inline-block h-5 w-5 text-blue-500" />
-      menu (dans <code class="font-mono">/src/App.vue</code>)
-    </h4>
-    <ul>
-      <li>
-        <router-link class="text-red-600 underline" to="/">
-          lien vers
-          <code class="font-mono">/src/pages/index.vue</code>
-        </router-link>
-      </li>
-      <li>
-        <router-link class="text-red-600 underline" to="/simple">
-          lien vers Page simple
-        </router-link>
-      </li>
-      <li>
-        <router-link class="text-red-600 underline" to="/liste">
-          lien vers la page Liste
-        </router-link>
-      </li>
-      <li>
-        <router-link class="text-red-600 underline" to="/liste-fetch">
-          lien vers la page Liste Fetch
-        </router-link>
-      </li>
-      <li>
-        <router-link class="text-red-600 underline" to="/edit/new">
-          lien vers le formulaire d'offres des maisons
-        </router-link>
-      </li>
-    </ul>
-  </nav>
+  <header class=" border-b-2 border-indigo-100 bg-white">
+    <div class=" flex justify-between m-6 ">
+      <Logo />
+      <Navigation class="h-5 w-5" />
+    </div>
+    <nav>
+      <div>
+        <ul class="hidden flex-auto justify-center gap-6 sm:flex">
+          <li>
+            <router-link class="hover:font-bold" to="/">Home </router-link>
+          </li>
+          <li>
+            <router-link class="hover:font-bold" to="/simple">Page Simple </router-link>
+          </li>
+          <li>
+            <router-link class="hover:font-bold" to="/liste">Liste </router-link>
+          </li>
+          <li>
+            <router-link class="hover:font-bold" to="/liste-fetch">Liste Fetch </router-link>
+          </li>
+          <li>
+            <router-link class="hover:font-bold" to="/edit/new">Formulaire pour créer un offre</router-link>
+          </li>
+        </ul>
+      </div>
+
+    </nav>
+  </header>
+
   <Suspense>
     <router-view class="m-2 border-5" />
   </Suspense>
@@ -42,4 +37,6 @@
 
 <script setup lang="ts">
 import { Bars3Icon } from '@heroicons/vue/20/solid'
+import Logo from './components/icones/Logo.vue'
+import Navigation from './components/icones/Navbar.vue'
 </script>
