@@ -22,6 +22,9 @@
           <li>
             <router-link class="hover:font-bold" to="/edit/new">Formulaire pour créer un offre</router-link>
           </li>
+          <li>
+            <router-link class="hover:font-bold" to="/list-supabase">Liste Supabase</router-link>
+          </li>
         </ul>
       </div>
 
