@@ -6,6 +6,8 @@ const dataMaison0 = {
     favoris: true,
     lieu: "2821 Lake Sevilla, Palm Harbor, TX",
     nbrSDB: 2,
+    nbrChambres: 2,
+    surface: 150,
     image: "/images-maison/maison1.jpg"
 };
 const dataMaison1 = {
@@ -14,6 +16,8 @@ const dataMaison1 = {
     favoris: true,
     lieu: "2699 Green Valley, Highland Lake ",
     nbrSDB: 2,
+    nbrChambres: 6,
+    surface: 500,
     image: "/images-maison/maison2.jpg"
 };
 const dataMaison2 = {
@@ -22,6 +26,8 @@ const dataMaison2 = {
     favoris: false,
     lieu: "909 Woodland St, Michigan, IN",
     nbrSDB: 3,
+    nbrChambres: 3,
+    surface: 145,
     image: "/images-maison/maison3.jpg"
 };
 </script>
