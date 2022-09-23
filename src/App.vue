@@ -183,7 +183,6 @@
 </template>
 
 <script setup lang="ts">
-import { Bars3Icon } from '@heroicons/vue/20/solid'
 import Logo from './components/icones/Logo.vue'
 import Navigation from './components/icones/Navbar.vue'
 </script>
