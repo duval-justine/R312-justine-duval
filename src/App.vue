@@ -3,8 +3,7 @@
     <div class=" flex justify-between m-6 ">
       <Logo />
       <RouterLink to="/login">
-        <button class=" bg-Extended/true-gray/900 border-2 border-Extended/amber/500 rounded-lg drop-shadow-md"
-          :class="{'bg-Extended/amber/500':actif}">
+        <button class=" bg-violet-500 border-2 border-violet-700 rounded-lg drop-shadow-md hover:bg-violet-700">
           <p class="py-2 px-3 font-lato text-Extended/true-gray/50 text-[12px] drop-shadow-md md:text-base lg:text-lg">
             Login</p>
         </button>
