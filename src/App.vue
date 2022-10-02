@@ -30,9 +30,11 @@
           <li>
             <router-link class="hover:font-bold" to="/list-supabase">Liste Supabase</router-link>
           </li>
+          <li>
+            <router-link class="hover:font-bold" to="/edit/id">Test - Editer une offre</router-link>
+          </li>
         </ul>
       </div>
-
     </nav>
   </header>
 
