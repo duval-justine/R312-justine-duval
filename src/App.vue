@@ -16,6 +16,9 @@
             <router-link class="hover:font-bold" to="/">Home </router-link>
           </li>
           <li>
+            <router-link class="hover:font-bold" to="/avotreattention">À votre attention</router-link>
+          </li>
+          <li>
             <router-link class="hover:font-bold" to="/simple">Page Simple </router-link>
           </li>
           <li>
