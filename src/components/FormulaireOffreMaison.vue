@@ -55,8 +55,14 @@ async function upsertMaison(dataForm, node) {
                     <FormKit name="favoris" label="Ajouter aux favoris" type="checkbox" wrapper-class="flex" />
                 </div>
                 <FormKit name="lieu" label="Adresse de la maison" />
-                <div class="mb-8">
+                <div class="mb-2">
                     <FormKit name="nbrSDB" label="Nombre de salle de bain" type="number" />
+                </div>
+                <div class="mb-2">
+                    <FormKit name="surface" label="Surface de la maison" type="number" />
+                </div>
+                <div class="mb-2">
+                    <FormKit name="nbrChambres" label="Nombre chambres" type="number" />
                 </div>
             </FormKit>
         </div>
