@@ -18,6 +18,7 @@ if (props.id) {
         .from("maison")
         .select("*")
         .eq("id", props.id);
+    console.log({ id: props.id, data, error })
     if (error) console.log("n'a pas pu charger le table Maison :", error);
     else dataMaison.value = (data as any[])[0];
 }
